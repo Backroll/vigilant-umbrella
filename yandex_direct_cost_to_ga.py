@@ -97,7 +97,7 @@ body = {
             "Clicks",
             "Cost"
         ],
-        "ReportName": u("Позавчерашний3"),
+        "ReportName": u("Report "+today),
         "ReportType": "CUSTOM_REPORT",
         "DateRangeType": "CUSTOM_DATE",
         "Format": "TSV",
