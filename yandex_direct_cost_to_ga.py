@@ -233,7 +233,6 @@ def build_content(row):
         retargeting_id = ""
     elif check_type == "FEED_FILTER" or check_type == "WEBPAGE_FILTER" or check_type == "RETARGETING":
         retargeting_id = row["Criterion"]
-    interest_id = ""
     adtarget_id = str(row["CriterionId"])
     check_placement = str(row["Placement"])
     if check_placement == "Яндекс":
