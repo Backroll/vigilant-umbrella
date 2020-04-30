@@ -242,7 +242,7 @@ def build_content(row):
         source = str(row["Placement"])
     device = str(row["Device"]).lower()
     region_name = str(row["TargetingLocationName"])
-    return "gid_" + gbid + "|ad_" + ad_id + "|ret_" + retargeting_id + "|int_" + interest_id + "|tgt_" + adtarget_id + "|src_" + source + "|dt_" + device + "|gname_" + region_name
+    return "gid_" + gbid + "|ad_" + ad_id + "|ret_" + retargeting_id + "|tgt_" + adtarget_id + "|src_" + source + "|dt_" + device + "|gname_" + region_name
 
 #формируем utm_keyword
 def build_keyword(row):
